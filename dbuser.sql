@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 28, 2020 at 01:27 AM
+-- Generation Time: Aug 28, 2020 at 01:37 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbuser`
 --
+
+CREATE DATABASE dbUser;
 
 -- --------------------------------------------------------
 
