@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+div.card-body{
+	font-family: 'Raleway', sans-serif;
+}
+
+div.card-header{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.gallery.row div[class^="col-3"]{
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+}
+
+i.fa{
+	margin-left: 0.5em;
+}
+
+img{
+	max-height: 250px;
+	max-width: 100%;
+}
+
+@media (min-width: 992px){
+	i.fa{
+		transition: all 0.5s;
+	}
+
+	button:hover i.fa{
+		margin-left: 1.5em;
+		transform: rotate(90deg);
+		transition: all 0.5s;
+	}
+}
